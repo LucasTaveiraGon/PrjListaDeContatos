@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
 
-      <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+
 </head>
+
 <body>
    <header>
-       <div class="conteiner">
+        <div class="container">
             <figure>
                 <img src="assets/img/logo.png" alt="Logo Kenzie Academy Brasil"/>
             </figure>
             <h1>Lista de Contatos</h1>
         </div>
    </header> 
+
    <main>
         <section class="sectionform">
             <div class="section_form">
-                <input placeholder="Nome" />
-                <input placeholder="Email" />
-                <input placeholder="Telefone" />
-                <button>Adicionar</button> 
+                <input type="text" id="cName" placeholder="Nome" />
+                <input type="email" id="cEmail" placeholder="Email" />
+                <input type="tel" id="cTel" placeholder="Telefone" />
+                <button id="botaoAdd" >Adicionar</button> 
              </div> 
         </section> 
-        <section class="SectionListC">
-            <ul class="listaContatos">
-                <li>Não a contatos na sua lista</li>
+
+        <section class="sectionList">
+            <ul class="list">
+                <li>
+                    <p>
+                        Não a contatos na sua lista
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <button id="remove"> </button>
+                    <h2>Lucas</h2>
+                    <p>lucastaveira@gmail.com</p>
+                    <span>62986069045</span>
+                </li>
             </ul>
         </section>
    </main>
+   <script src="./assets/js/script.js"></script>
 </body>
 </html>

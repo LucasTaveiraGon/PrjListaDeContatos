@@ -1,4 +1,6 @@
-body {}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
 
 header{
     background-color: #162b7b;
@@ -7,7 +9,7 @@ header{
 header .container{
     width: 100%;
     max-width: 1000px;
-    margin: 0% auto;
+    margin: 0 0 0 auto;
 }
 header figure{}
 header figure img{
@@ -18,13 +20,16 @@ header h1 {
     color: white;
     font-size: 30px;
     margin-top: 10px;
+    font-weight: 600;
 }
 
 main{
     display: flex;
+    height: 87vh;
 }
 main section{
     width: 50%;
+    padding: 100px 40px;
 }
 .sectionform{
     background-color: #162b7b;
@@ -33,12 +38,16 @@ main section{
     display: flex;
     flex-direction: column;
     width: 450px;
+    margin: 0 0 0 auto;
+    padding-right: 20px;
 }
 .sectionform .section_form input{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     height: 25px;
     border: none;
     border-radius:20px ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
     padding: 0% auto;
 }
 .sectionform .section_form button{
@@ -48,5 +57,42 @@ main section{
     border: none;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
     background-color: hsl(0deg 0% 100% / 90%);
+}
+.sectionList{
+    background-color: hsl(228deg 70% 28% / 10%) ;
+}
+.list{
+    width: 100%;
+    max-width: 450px;
+}
+.list li{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+ .list li button{
+    float: right;
+    background-image: url(../img/trash.svg);
+    width: 20px;
+    height: 20px;
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #de4b09; 
+    border-radius: 100%;
+    background-color: hsl(0deg 95% 44% / 5%);
+}
+.list li h2{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.sectionList list li p{
+margin: 5px 0;
+}
+.sectionList lista li span{
+    
 }
