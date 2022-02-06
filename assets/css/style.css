@@ -1,0 +1,52 @@
+body {}
+
+header{
+    background-color: #162b7b;
+    padding: 20px 0;
+}
+header .container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0% auto;
+}
+header figure{}
+header figure img{
+    width: 100%;
+    max-width: 120px;
+}
+header h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+main{
+    display: flex;
+}
+main section{
+    width: 50%;
+}
+.sectionform{
+    background-color: #162b7b;
+}
+.sectionform .section_form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.sectionform .section_form input{
+    margin-bottom: 10px;
+    height: 25px;
+    border: none;
+    border-radius:20px ;
+    padding: 0% auto;
+}
+.sectionform .section_form button{
+    margin-top: 20px;
+    height: 30px;
+    border-radius:20px ;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: hsl(0deg 0% 100% / 90%);
+}
